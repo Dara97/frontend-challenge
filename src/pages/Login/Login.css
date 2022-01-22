@@ -1,0 +1,84 @@
+.container-padre{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: #212121;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #424242;
+  padding: 0 40px 40px 40px;
+  border-radius: 6px;
+  border: 2px solid #d6cb30;
+}
+
+.contact-login {
+  background: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+  background-clip: text;
+  color: transparent;
+  width: 50;
+}
+
+.boton-login {
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: 2px solid #d6cb30;
+  border-radius: 6px;
+  padding: 6px;
+}
+.boton-login:hover {
+  cursor: pointer;
+  color: #d6cb30;
+}
+
+.labelLogin {
+  font-size: 20px;
+  background: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.boton-cambio {
+  color: white;
+  background: transparent;
+  border: 2px solid #d6cb30;
+  border-radius: 6px;
+  padding: 6px;
+}
+.boton-cambio:hover {
+  cursor: pointer;
+  color: #d6cb30;
+}
+.form-group {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d6cb30;
+  border-radius: 25px;
+}

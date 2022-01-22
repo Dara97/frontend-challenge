@@ -1,0 +1,25 @@
+.title-navbar {
+    background: linear-gradient(
+      135deg,
+      #fff783 0,
+      #ffdf67 25%,
+      #f9c346 50%,
+      #e8a722 75%,
+      #db8f00 100%
+    );
+    background-clip: text;
+    color: transparent;
+    font-family: "Oswald", sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+  .containerhome{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
